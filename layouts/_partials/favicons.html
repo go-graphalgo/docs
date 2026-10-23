@@ -1,0 +1,8 @@
+{{- /* The favicons are the go-graphalgo brand's org mark (submodule branding/,
+  mounted under /images/brand/ by hugo.yaml) rather than files copied into
+  static/. Replaces Hextra's favicons.html, which expects them at the root. */ -}}
+<link rel="icon" href="{{ "images/brand/svg/go-graphalgo.svg" | relURL }}" type="image/svg+xml" id="favicon-svg" />
+<link rel="icon" href="{{ "images/brand/ico/go-graphalgo.ico" | relURL }}" sizes="16x16 32x32" />
+<link rel="icon" href="{{ "images/brand/png/32/go-graphalgo.png" | relURL }}" type="image/png" sizes="32x32" />
+<link rel="icon" href="{{ "images/brand/png/16/go-graphalgo.png" | relURL }}" type="image/png" sizes="16x16" />
+<link rel="apple-touch-icon" href="{{ "images/brand/png/256/go-graphalgo.png" | relURL }}" sizes="256x256" />
